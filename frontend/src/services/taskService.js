@@ -4,7 +4,7 @@
 
 import axios from 'axios';
 
-const BASE_URL = '/tasks';
+const BASE_URL = 'https://task-manager-0xuz.onrender.com/tasks';
 
 // GET /tasks — fetch all tasks
 export const getTasks = async () => {
