@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/tasks': 'http://localhost:5000'  // Forward API calls to Express
+      '/tasks': 'https://task-manager-0xuz.onrender.com'  // Forward API calls to Express
     }
   }
 })
